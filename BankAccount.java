@@ -29,8 +29,8 @@ public class BankAccount {
 
     public static void main(String[] args) {
         BankAccount account = new BankAccount(100.0);
-        account.deposit(50);
-        account.withdraw(30);
+        account.deposit(60);
+        account.withdraw(40);
         account.displayBalance();
     }
 }
